@@ -1,0 +1,366 @@
+/****************BASE STYLES***************/
+body {
+    font-family: 'Century Gothic Pro', sans-serif;
+    color: #231f20;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+/*******HEADER********/
+
+header {
+    height: 800px;
+}
+
+header img{
+    padding-top: 25px;
+    padding-left: 45px;
+}
+
+nav {
+    float: right;
+    padding: 25px 50px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #231f20;
+    padding-left: 80px;
+}
+
+header h1 {
+    width: 960px;
+    clear: both;
+    font-family: 'rufina-stencil-alt-02', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 120px;
+    padding-left: 210px;
+}
+
+.artist {
+    color: #538cc4;
+}
+
+.artist:hover {
+    color:#ffffff;
+    background-color: rgba(83, 140, 196, .5);
+    padding-left: 5px;
+    padding-right: 2px;
+}
+
+.designer {
+    color: #ffb503;
+}
+
+.designer:hover {
+    color:#ffffff;
+    background-color: rgba(255, 181, 3, .5);
+    padding-left: 5px;
+    padding-right: 4px;
+    line-height: 120px;
+}
+
+.developer {
+    color: #f7592a;
+}
+
+.developer:hover {
+    color:#ffffff;
+    background-color: rgba(247, 89, 42, .5);
+    padding-left: 5px;
+    padding-right: 2px;
+}
+
+header p {
+     font-family: 'rufina-stencil', sans-serif;
+     font-style: italic;
+     font-size: 36px;
+     padding-left: 346px;
+     margin-top: -25px;
+ }
+
+#about-skills {
+    height: 1600px;
+}
+
+.blue-background {
+    background-image: url('../images/about-background-shape.png');
+    background-size: 780px 666px;
+    background-repeat: no-repeat;
+    background-position: 380px; 
+    background-size: contain;
+    padding-bottom: 200px;
+    position: relative;
+    z-index: 1000;
+}
+.pink-background {
+    background-image: url('../images/skills_background.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 1150px;
+    margin-top: -200px;
+}
+
+
+.about-highlighter h2 {
+    font-family: 'rufina-stencil-alt-02', sans serif;
+    font-weight: 400;
+    font-size: 100px;
+    text-transform: lowercase;
+    padding: 50px 0 0 490px;
+    color: #231f20;
+    background-image: url(../images/about_highlighter.png);
+    background-repeat: no-repeat;
+    background-position: 480px  45px;
+}
+
+#about-skills p {
+    width: 580px;
+    line-height: 40px;
+    text-align: center;
+    padding-left: 395px;
+    margin-top: -120px;
+}
+
+
+
+.skills-highlighter h2 {
+    font-family: 'rufina-stencil-alt-02', sans serif;
+    font-weight: 400;
+    font-size: 100px;
+    text-transform: lowercase;
+    padding: 200px 0px 0px 210px;
+    color: #231f20;
+    line-height: 100px;
+    background-image: url(../images/skills-highlighter.png);
+    background-repeat: no-repeat;
+    background-position: 180px 160px;
+}
+
+#about-skills .half-width {
+    line-height: 36px;
+    color: #538cc4;
+    width: 300px;
+    margin-top: -50px;
+}
+
+#about-skills ul {
+    font-size: 18px;
+    font-weight: 700;
+    list-style-type: none;
+    border: 1px solid #538cc4;
+    box-sizing: border-box;
+    text-align: center; 
+    margin: 15px 0;
+    padding: 25px 0;
+    width: 300px;
+}
+
+
+.skills-column img {
+    height: 99px;
+    padding: 0 100px;
+    
+}
+
+.skills-column {
+    padding-left: 210px;
+    
+}
+    
+.tools-column img {
+    height: 99px;
+    padding-left: 80px;      
+}
+
+.tools-column {
+    float: right;
+    padding-right: 210px; 
+}
+
+
+
+/*******WORK********/
+
+#work {
+    height: 1400px;
+}
+
+.work-background {  
+    background-image: url(../images/work_background.png); 
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    height: 1400px;
+    background-position: center;
+    margin-top: 75px;  
+}
+
+.work-header-background {
+    background-image: url(../images/work-background-swipe.png);
+    background-repeat: no-repeat;
+    background-size: 470px 121px;
+    background-position: 600px 205px;
+}
+
+.thumbnail-container {
+    width: 880px;
+    padding-left: 170px;
+    padding-top: 175px;
+    margin-top: 0;
+}
+
+.work-h2 {
+    font-family: 'rufina-stencil-alt-02', sans-serif;
+    font-size: 100px;
+    text-transform: lowercase;
+    padding-left: 550px;
+    background-image: url(../images/work-highlighter.png);
+    background-repeat: no-repeat;
+    background-position: 550px 55px;
+}
+
+
+.thumbnail {
+    width: 400px;
+    height: 300px;
+    float: left;
+    padding: 20px;
+}
+
+
+
+.thumbnail-image {
+    position: relative;
+    width: 380px;
+    height: 300px;
+    display: block;
+}
+
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(247, 89, 42, .75);
+    color:#ffffff;
+    opacity: 0;
+    text-align: center;
+}
+    
+.thumbnail-image:hover .overlay {
+    opacity: 1; 
+}
+
+
+.thumbnail-title {
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 80px;
+}
+
+.thumbnail-skills ul {
+    font-size: 18px;
+    list-style-type: none;
+    line-height: 36px;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+/************FOOTER************/
+
+#contact {
+    background-image: url(../images/contact-background.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    height: 565px;
+}
+
+#contact h2 {
+    font-family: 'rufina-stencil-alt-02', sans serif;
+    font-weight: 400;
+    font-size: 100px;
+    text-transform: lowercase;
+    color: #ffffff;
+    padding-left: 50px;
+}
+
+
+#contact .half-width {
+    text-align: left;
+}
+
+
+#contact h3 {
+    font-size: 24px;
+    font-weight: 700;
+    font-style:italic;
+    color: #ffffff;
+    margin-top: -85px;
+    padding-left: 50px;
+    line-height: 16px;
+}
+
+#contact h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-left: 50px;
+    padding-top: 15px;
+    line-height: 0px;
+}
+
+#contact a {
+    color:#ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    padding-left: 50px;
+    line-height: 0;
+}
+
+#contact ul {
+    list-style: none;
+    float: right;
+    padding-right: 40px;
+    margin-top: -5px;
+}
+
+#contact ul li {
+     display: inline-block;
+     vertical-align: center;
+}
+
+#contact ul img {
+    padding-right: 20px;
+}
+
+.contact-logo img {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+    clear: both;
+}
